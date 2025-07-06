@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5ebe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.card-image img {
+    width: 300px;
+    display: block;
+}
+
+.card-text {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.heading {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.price-current {
+    font-family: 'Fraunces', serif;
+    color: #3a8663;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.price-old {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.btn-add {
+    background-color: #3a8663;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: #2d6e52;
+}
+
+.icon-cart {
+    margin-right: 8px;
+    vertical-align: middle;
+}
